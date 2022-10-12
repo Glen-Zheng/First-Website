@@ -312,14 +312,22 @@ div {
 .footer {
   margin-top: 100px;
   display: grid;
-  background-color: cornflowerblue;
+  background-image: url("http://cdn.shopify.com/s/files/1/1449/2750/files/Dragon-Paddling_how_to.jpg?v=1539799244");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* background-color: cornflowerblue; */
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2, 1fr);
   width: 100%;
   aspect-ratio: 1/0.5;
   gap: 20px 20px;
   border: 5px;
+
   /* justify items is for whole grid */
+}
+.bkgd {
+  
 }
 
 .child {
@@ -353,4 +361,14 @@ div {
   color: cornflowerblue;
   text-align: center;
   
+}
+
+.IDBFimg {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 29%;
+  height: 36%;
+  /* aspect-ratio: 4/5; */
 }
