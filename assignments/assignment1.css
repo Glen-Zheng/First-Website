@@ -1,0 +1,310 @@
+div {
+    margin-top: 0px;
+    padding: 0px;
+    border: 0;
+  }
+  
+  .background {
+    /* background-color: rgb(194, 217, 237); */
+    background-image: url("https://images.wallpapersden.com/image/download/gradient-calm-sunset_a2xna2mUmZqaraWkpJRqZ21nrWdtaG4.jpg");
+    background-repeat: no-repeat;
+    size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .links {
+    position: absolute;
+    background-color: rgb(202, 134, 205);
+    right: 10px;
+    top: 0px;
+    text-decoration: underline;
+    /* width: 100%;
+    text-align:end; */
+  }
+  
+  .link:hover {
+    color: aqua;
+  }
+  
+  .links span {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+  }
+  
+  .links a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 25px;
+  }
+  
+  .firstgrid {
+    display: grid;
+    z-index: 30;
+    height: 180px;
+  
+    grid-template-columns: [first] auto [line2] 1165px [line3] auto;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  
+  .head {
+    border: 5px solid rgb(51, 62, 157);
+    text-align: center;
+    border-radius: 10px;
+    /* position: absolute;
+  
+    right: 370px;
+    top: 0px; */
+    font-family: "Unica One", cursive;
+    font-size: 80px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-right: 200px;
+    margin-left: 200px;
+  
+    overflow: auto;
+    justify-self: center;
+  }
+  
+  .head:hover {
+    color: aliceblue;
+    transform: rotate(360deg);
+    transition-duration: 3s;
+  }
+  
+  .img {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    position: sticky;
+    left: 5px;
+    top: 5px;
+    margin-bottom: 0px;
+  }
+  
+  img.hover {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+  }
+  
+  .headtwo {
+    margin-top: 100px;
+    margin-left: 8px;
+    font-family: "Raleway", sans-serif;
+  
+    font-size: 55px;
+    color: rgb(245, 205, 26);
+    /* text-transform: uppercase; */
+  }
+  
+  .tnpcslp p {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  
+  .tnpcslp {
+    margin-left: 8px;
+    width: 910px;
+  }
+  
+  .tnpcslp:hover {
+    transform: translate(10px);
+    transition-duration: 1s;
+  }
+  
+  .lines p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 27px;
+    /* margin-right: 800px; */
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+  }
+  .lines h2 {
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    font-size: 43px;
+  }
+  
+  .linesmargin {
+    margin-left: 8px;
+  }
+  
+  .note {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .randomnote {
+    /* position: absolute;
+    top: 1500px;
+    z-index: 4;
+    right: 450px; */
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  /* .randompic {
+    position: absolute;
+    top: 175px;
+    right: 80px;
+  } */
+  
+  .clickable1 {
+    /* position: relative;
+    top: 842px;
+    right: 35px;  */
+    width: 750px;
+    height: 540px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .clickable1:hover {
+    transform: scale(1.04);
+    transition-duration: 2s;
+  }
+  
+  .sect2 p.intro {
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(230, 240, 240);
+  }
+  
+  .tabled {
+    margin-top: 0px;
+    background-image: url("https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    size: 100% 100%;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 5px solid white;
+    /*  border-spacing: 10px;    can't work because border collasped */
+  }
+  
+  .table td,
+  th {
+    color: white;
+    border: 3px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 300%;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .data {
+    width: 5%;
+  }
+  .data1 {
+    width: 21%;
+  }
+  .data2 {
+    width: 16%;
+  }
+  
+  .data3 {
+    width: 52%;
+  }
+  th:nth-child(even),
+  td:nth-child(even) {
+    background-color: rgb(226, 43, 180);
+  }
+  tr:nth-child(even) {
+    background-color: blueviolet;
+  }
+  
+  .theader {
+    font-size: 400%;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: chartreuse;
+    text-align: center;
+  }
+  
+  .results {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Abyssinica SIL", serif;
+    color: rgb(7, 8, 8);
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: 3px;
+  }
+  
+  .disclaimer {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .conversions {
+    color: black;
+    border: 3px solid rgb(168, 255, 168);
+    background-image: url("https://thoughtcatalog.com/wp-content/uploads/2018/03/bady-qb-42758-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px 30px 30px 30px;
+    margin: 10px 10px;
+    font-size: 20px;
+  }
+  
+  .conversions > h1 {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 0px;
+    font-family: "Concert One", cursive;
+  }
+  
+  .conversions h2 {
+    color: white;
+    font-size: 60px;
+    font-family: "Lobster", cursive;
+  }
+  .conversions h3 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: "Dangrek", cursive;
+  }
+  
+  .message {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: x-large;
+    color: azure;
+    line-height: 1.6;
+    width: 700px;
+    height: 500px;
+    border: 4px solid rgb(3, 75, 169);
+    padding: 10px 10px;
+    margin-left: 30px;
+  }
+  
+  .finalimg {
+    color: black;
+    position: relative;
+    left: 10%;
+  }
+  
+  .finalimg:hover {
+    /* transform: matrix(scaleX(5), skewY(-20deg), skewX(-20deg), scaleY(5), translateX(300px), translateY(100px)); */
+    transform: scale(5, 5);
+    transform: skew(-20deg, -20deg);
+    /* transform: rotate(360deg); */
+    transition-duration: 4s;
+  }
