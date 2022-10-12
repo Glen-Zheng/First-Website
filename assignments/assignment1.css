@@ -323,10 +323,11 @@ div {
 }
 
 .child {
-  background-color: burlywood;
-  width: 50%;
-  height: 50%;
+  background-color: rgb(105, 10, 116);
+  width: 75%;
+  height: 75%;
   place-self: center;
+  overflow: auto;
   /* can do grid area: +  <row-start> / <column-start> / <row-end> / <column-end>; to get each grid cell's length and stuff. not needed for this */
 }
 
@@ -335,18 +336,21 @@ div {
   font-size: 29px;
   font-weight: bold;
   font-family: 'Peralta', cursive;  
+  text-align: center;
 
 }
 
 .location {
   font-size: 21px;
   font-family: 'Voces', cursive;
-  color: aquamarine;
+  color: rgb(0, 225, 255);
+  text-align: center;
 }
 
 .year {
-  font-size: 17;
+  font-size: 18.5px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: rgb(130, 92, 92);
+  color: cornflowerblue;
+  text-align: center;
   
 }
