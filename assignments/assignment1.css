@@ -17,7 +17,8 @@ div {
 
 .links {
   position: absolute;
-  background-color: rgb(202, 134, 205);
+  color: rgb(246, 145, 162);
+  background-color: rgb(23, 52, 92);
   right: 10px;
   top: 0px;
   text-decoration: underline;
@@ -29,14 +30,17 @@ div {
   color: aqua;
 }
 
+
 .links span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 25px;
+  
 }
 
 .links a {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
+  color: #FF69B4;
 }
 
 .firstgrid {
