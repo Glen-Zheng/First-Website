@@ -329,3 +329,24 @@ div {
   place-self: center;
   /* can do grid area: +  <row-start> / <column-start> / <row-end> / <column-end>; to get each grid cell's length and stuff. not needed for this */
 }
+
+.event{
+  color: chartreuse;
+  font-size: 29px;
+  font-weight: bold;
+  font-family: 'Peralta', cursive;  
+
+}
+
+.location {
+  font-size: 21px;
+  font-family: 'Voces', cursive;
+  color: aquamarine;
+}
+
+.year {
+  font-size: 17;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(130, 92, 92);
+  
+}
