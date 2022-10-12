@@ -308,3 +308,24 @@ div {
     /* transform: rotate(360deg); */
     transition-duration: 4s;
   }
+
+.footer {
+  margin-top: 100px;
+  display: grid;
+  background-color: cornflowerblue;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  aspect-ratio: 1/0.5;
+  gap: 20px 20px;
+  border: 5px;
+  /* justify items is for whole grid */
+}
+
+.child {
+  background-color: burlywood;
+  width: 50%;
+  height: 50%;
+  place-self: center;
+  /* can do grid area: +  <row-start> / <column-start> / <row-end> / <column-end>; to get each grid cell's length and stuff. not needed for this */
+}
