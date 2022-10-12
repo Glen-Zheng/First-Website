@@ -114,8 +114,8 @@ img.hover {
 }
 
 .tnpcslp:hover {
-  transform: translate(10px);
-  transition-duration: 1s;
+  transform: translate(100px);
+  transition-duration: 1.5s;
 }
 
 .lines p {
