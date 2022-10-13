@@ -179,7 +179,8 @@ img.hover {
   margin-right: 50px;
   text-align: center;
   font-size: 40px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.6;
   color: rgb(230, 240, 240);
 }
 
@@ -206,7 +207,7 @@ th {
   padding-bottom: 5px;
   text-align: left;
   font-size: 300%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .data {
   width: 5%;
@@ -330,8 +331,7 @@ tr:nth-child(even) {
 
   /* justify items is for whole grid */
 }
-.bkgd {
-}
+
 
 .child {
   background-color: rgb(105, 10, 116);
