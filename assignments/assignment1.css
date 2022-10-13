@@ -124,8 +124,10 @@ img.hover {
   line-height: 1.6;
 }
 .lines h2 {
-  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
-  font-size: 43px;
+  font-family: "DynaPuff", cursive;
+  font-size: 55px;
+  text-align: center;
+  color: #4A5DA8;
 }
 
 .linesmargin {
