@@ -238,16 +238,24 @@ tr:nth-child(even) {
 }
 
 .results {
-  margin-top: 0;
   margin-left: 0;
   margin-right: 0;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  border: 3px;
+  margin-top: 50px;
+}
+.results h2 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "DynaPuff", cursive;
+  color: #FF4E50;
+}
+.results p {
   text-align: center;
   font-size: 40px;
   font-family: "Abyssinica SIL", serif;
   color: rgb(7, 8, 8);
-  background-color: blanchedalmond;
-  border-radius: 20px;
-  border: 3px;
 }
 
 .disclaimer {
