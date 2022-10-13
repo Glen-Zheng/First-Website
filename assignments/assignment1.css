@@ -231,9 +231,8 @@ tr:nth-child(even) {
 
 .theader {
   font-size: 400%;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: chartreuse;
+  font-family: 'DynaPuff', cursive;
+  color: #C06C04;
   text-align: center;
 }
 
